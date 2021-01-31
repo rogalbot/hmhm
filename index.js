@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
 });
 
 async function fetchNews(){
-    
+    console.log("cos");
     const res = await fetch(topHeadlinesUrl);
     const json = await res.json();
     
