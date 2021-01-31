@@ -5,6 +5,7 @@ window.addEventListener('load', () => {
 });
 
 async function fetchNews(){
+    
     const res = await fetch(topHeadlinesUrl);
     const json = await res.json();
     
